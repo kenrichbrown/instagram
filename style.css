@@ -1,0 +1,198 @@
+
+
+body {
+    background-color: white;
+
+}
+
+img {
+    
+    width: auto ;
+    display: flex;
+    height: 450px;
+}
+
+.logo {
+    height: 40px;
+    width: 150px;
+    object-fit: contain;
+    object-position: top left;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+
+
+}
+.icon{
+    width: 20px;
+    height: 20px;
+}
+
+.up {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    gap: 100px;
+
+
+
+}
+
+
+.pin {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+hr{
+    width: 103px;
+    border: 0.5px solid rgba(0, 0, 0, 0.315);
+}
+.or{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 8px;
+    border: 1px solid grey;
+    background-color: white;
+    color: black;
+
+
+}
+
+input:focus {
+    outline: none;
+}
+
+
+
+form {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+button {
+    width: 250px;
+    background-color: rgb(0, 149, 246);
+    font-size: medium;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+
+}
+
+button:hover {
+    background-color: rgb(24, 119, 242);
+}
+
+
+h6 {
+    
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.fb {
+    text-decoration: none;
+    color: rgb(24, 119, 242);
+    display: flex;
+
+}
+
+
+
+.top {
+    color: black;
+    font-weight: 500;
+    font-size: medium;
+    text-decoration: none;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top:hover {
+    text-decoration: underline;
+}
+
+
+p {
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+
+.sign {
+    font-weight: bolder;
+    font-size: medium;
+    text-decoration: none;
+    color: blue;
+}
+
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.foote {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.footy {
+    width: 200px;
+    color: grey;
+    font-size: 12px;
+    margin: 5px;
+    text-decoration: none;
+
+}
+
+.foot {
+    margin: 5px;
+    color: grey;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+@media(max-width:740px){
+    .hero{display: none;}
+    footer{display: none;}
+}
